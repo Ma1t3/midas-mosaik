@@ -29,7 +29,7 @@ setuptools.setup(
         "matplotlib",  # required by pandapower
         "mosaik==3.0.2",
         "mosaik-hdf5",
-        "numpy<=1.19.3",  # 1.19.4 has a windows bug
+        "numpy>=1.22.0",  # 1.19.4 has a windows bug
         "pandapower==2.9.0",
         "pysimmods",
         "ruamel.yaml",

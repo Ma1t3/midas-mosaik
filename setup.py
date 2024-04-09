@@ -37,6 +37,7 @@ setuptools.setup(
         "sortedcontainers",
         "tables",
         "wget",
+        "natsort",
     ],
     entry_points="""
         [console_scripts]
